@@ -19,6 +19,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+      position: relative;
+    z-index: 10;
 }
 
 .nav-links {
@@ -70,8 +72,9 @@
 
 .hero{
     display: flex;
-    margin-top: 10rem;
+    margin-top: 6rem;
     width: 100%;
+    /* overflow: hidden; */
 }
 
 .text{
@@ -80,13 +83,13 @@
 }
 
 .text>h1{
-    font-size: 3.2rem;
+    font-size: 2.8rem;
     font-weight: 700;
 }
 .text>p{
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-weight: 650;
-    line-height: 2;
+    line-height: 1.7;
 }
 
 .right-1{
@@ -95,21 +98,109 @@
 
 .btn1{
     display: flex;
+    margin-top: 7rem;
 }
 
 .btn-container{
     display: flex;
+    margin-right: 3rem;
     background-color: black;
     color: white;
     align-items: center;
-    padding: .2rem;
+    border-radius: 10px;
+    padding: .4rem 1rem;
 }
 
 .btn-text>p{
     font-size: .7rem;
+    line-height: .7;
 }
 
+.btn-image{
+    margin-right: 1rem;
+}
+
+
 .btn-text>h1{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 600;
+}
+
+.right-1{
+    position: relative;
+    /* width:100%; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.right-1>img{
+    position: relative;
+    z-index: 2;
+}
+
+.right-1-overlay{
+     position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 50% 0% 0% 0%;
+    background-color: #CBFFD0;
+     width: 500px;
+     height: 600px;
+    z-index: 1;
+}
+
+.Features{
+    display: flex;
+    width: 100%;
+    
+}
+
+.l-features{
+    width: 40%;
+}
+
+.r-features{
+    width: 60%;
+    border: 2px solid black;
+}
+.r-features>h1{
+    padding-left: 4.8rem;
+    padding-top: 2rem ;
+    padding-bottom: 2rem;
+}
+
+.boxes-features{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.box{
+    height: 300px;
+    width: 320px;
+    padding: .8rem 2rem;
+    border-radius: 27px;
+    margin-bottom: 7rem;
+    overflow: hidden;
+}
+
+.box>p{
+    font-size: 1.3rem;
+}
+
+.box-1{
+    background-color: #CBFFD0;
+}
+
+.box-2{
+    background-color: #26A69A;
+}
+
+.box-3{
+    background-color: #26A69A;
+}
+
+.box-4{
+    background-color: #CBFFD0;
 }
