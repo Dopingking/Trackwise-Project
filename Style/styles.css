@@ -295,8 +295,120 @@
 .hiw-cont-overlay>img{
     position: absolute;
     z-index: 1;
-    /* align-self: center; */
+    
     top: 1;
-    /* width: 50rem;
-    height: 30rem; */
+}
+   
+
+.testimonial{
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+    height:44rem ;
+}
+
+.testimonial-overlay{
+        position: absolute;
+        left: 0;
+        top: 0;
+        border-radius: 0% 0% 70% 0%;
+        background-color: #26A69A;
+        width: 15rem;
+        height: 19rem;
+        z-index: 0;
+        display: hidden;
+}
+
+.testimonial>h1{
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 2rem;
+    margin-bottom: 15rem;
+}
+    
+
+
+
+.slides-testimonial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 8rem;
+    position: relative;
+    gap: 1rem;
+}
+
+
+.slide-card{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    border-radius: 1.6rem;
+}
+.slide-card:nth-child(1){
+    background-color: #CBFFD0;
+    width: 22rem;
+    height: 20rem;
+    left: 4rem;
+    justify-content: center;
+    padding: .9rem 1rem;
+    text-align: center;
+    z-index: 0;
+    font-size: 1.2rem;
+}
+.slide-card:nth-child(2){
+    background-color: #26A69A;
+    width: 23rem;
+    height: 28rem;
+    padding: 2rem;
+    z-index: 3;
+    justify-content: center;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.slide-card:nth-child(3){
+    background-color: #CBFFD0;
+    width: 20rem;
+    height: 20rem;
+    right: 3rem;
+    justify-content: center;
+    z-index: 1;
+    padding: .9rem 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.user-image{
+    height: 6rem;
+    width: 6rem;
+}
+
+span{
+    font-weight: 600;
+    
+}
+
+
+.testimonial-overlay1{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        border-radius: 70% 0% 0% 0%;
+        background-color: #26A69A;
+        width: 17rem;
+        height: 21rem;
+        z-index: 0;
+        display: hidden;
+}
+
+.faq{
+    background-image: url("../Assets/Rectangle\ 599.png");
+}
+
+.faq-overlay{
+    background-color: #CBFFD0;
+    height: 19rem;
+    width: 15rem;
 }
